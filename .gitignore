@@ -1,0 +1,17 @@
+# Archivos de compilación
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+
+# Qt Creator
+*.user
+*.pro.user
+*.qrc.depends
+*.qrc.cpp
+
+# Archivos temporales
+*.autosave
+*.swp
