@@ -2,6 +2,10 @@ cmake_minimum_required(VERSION 3.16)
 
 project(BancolombiaClone VERSION 0.1 LANGUAGES CXX)
 
+# Limpiar flags indeseados automáticamente
+string(REPLACE "-mno-direct-extern-access" "" CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
+
+
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -12,6 +16,7 @@ set(CMAKE_AUTORCC ON)
 
 # Buscar Qt6
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
+
 
 # Archivos fuente
 set(SOURCES

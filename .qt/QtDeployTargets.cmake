@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_BancolombiaClone_FILE /home/anonymous/zDev/projectsC++/BancolombiaClone/BancolombiaClone)
+set(__QT_DEPLOY_TARGET_BancolombiaClone_TYPE EXECUTABLE)
